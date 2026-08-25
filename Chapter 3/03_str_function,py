@@ -1,0 +1,19 @@
+# Using len function to count lenght of string
+name = "rishabh soni"
+l=len(name)         # just like we did for type
+print(l)
+
+# now string.endswith tell use is does string exactly end by that letter or number
+
+print(name.endswith("oni"))
+print(name.startswith("Rish"))   # hence it is case sensitive
+print(name.capitalize())        # So it will capitalize the first letter
+print(name.title())             # now it will change the case of first letters of new words
+
+index = name.find("soni")
+print(index)                # the index of first letter of soni is at 8th as space is 7th
+
+replace = name.replace( "soni" , "arya")    #saari occurances ko replace karta h even if your write soni 2 times , result will be 2 times arya
+print(replace)
+
+

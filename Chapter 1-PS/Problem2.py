@@ -1,0 +1,1 @@
+# Go to Terminal and use python as a calculator
