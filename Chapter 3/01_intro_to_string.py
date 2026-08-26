@@ -13,3 +13,11 @@ print(nameshort)
 
 character3 = name[3]
 print(character3)
+# like no need to mug-up just learn the basics, bro we use [ : ] for slicing simple, for example ;
+
+naam = "Soni"
+
+print(naam[0:2])
+
+# So here logic is just [ : ] simple
+
