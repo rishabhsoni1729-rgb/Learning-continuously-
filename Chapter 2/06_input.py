@@ -1,4 +1,4 @@
-# this function will , help you to take input form user and cool is you can make calculator thru it.
+# this function will , help you to take input from user and cool part is you can make calculator thru it.
 
 a = input("Enter a is :")
 b = input("Enter b is :")
