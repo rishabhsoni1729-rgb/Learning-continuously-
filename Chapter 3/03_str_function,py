@@ -1,19 +1,18 @@
 # Using len function to count lenght of string
 name = "rishabh soni"
-l=len(name)         # just like we did for type
+l=len(name)                       # just like we did for type
 print(l)
+print(name.endswith("oni"))  
+print(name.startswith("Risha"))   # So this code is case-sensitive that why ans is wrong
+print(name.title())               # So here it will capitalize the first letter of the word 
+print(name.capitalize())          # So here it will capitalize the first letter of the each word 
 
-# now string.endswith tell use is does string exactly end by that letter or number
+# now to find the indexing we can use name.find
 
-print(name.endswith("oni"))
-print(name.startswith("Rish"))   # hence it is case sensitive
-print(name.capitalize())        # So it will capitalize the first letter
-print(name.title())             # now it will change the case of first letters of new words
+name = "Ayush Soni"
+index = name.find("Soni")
+print(index)
 
-index = name.find("soni")
-print(index)                # the index of first letter of soni is at 8th as space is 7th
-
-replace = name.replace( "soni" , "arya")    #saari occurances ko replace karta h even if your write soni 2 times , result will be 2 times arya
-print(replace)
-
-
+sentance =" rishabh is studying more and more python"
+changed = sentance.replace("more","less")
+print(changed)
