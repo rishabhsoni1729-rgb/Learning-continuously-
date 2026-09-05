@@ -1,8 +1,8 @@
 a = input("Enter your name :" )
-b = "Good Afternoon"
-print("b" +"a")
+b = "Good Afternoon "
+print(b + a)
 
-# i am having a trouble in con-catinating these two words
+# i can con-catinating these two words and also do with different methon
 
 # Lets use f string fxn to make our work easy!
 
